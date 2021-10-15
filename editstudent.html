@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Edit Form</title>
 </head>
+
 <body>
-    
+
+    <table>
+
+        <tr>
+            <td><label for="matric">Matric No:</label></td>
+            <td><input type="text" name="matric" id="matric" size="50" required placeholder="18DDTXXFXXXX" autofocus
+                    autocomplete="on" minlength="12" maxlength="12"></td>></td>
+        </tr>
+        <tr>
+            <td><label for="name">Student's Name:</label></td>
+            <td><input type="text" name="name" id="name" size="50" required placeholder="Full Name" autofocus
+                    autocomplete="on"></td>></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <button type="submit">SUBMIT</button>
+    <button type="reset">CANCEL</button>
 </body>
+
 </html>
